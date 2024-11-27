@@ -1,0 +1,290 @@
+/*general code*/
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: brown;
+}
+/*Navigation bar*/
+.topnav{
+    image-resolution: 144px 144px;
+        img{
+            width: 124px;
+            height: 124px;
+            float: left;          
+            }
+        h1{
+            text-align: left;
+            float: left;
+            color: orange;
+        }
+    overflow: hidden;
+    float: all;
+    text-align: end;
+    padding: 14px 16px;
+    font-size: medium;
+    border-color: orangered;
+    border-width: 10px 10px;
+    border-style: solid;
+    background-color: brown;
+    
+}
+/*End of nav bar*/
+/* Home page start*/
+.texthome{
+    text-align: center;
+}
+/*end of general*/
+.Imagehome{
+    border: 10px 10px;
+    border-color: orangered ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* Title on each page*/
+.titleabout{
+text-align: center;
+border: 5px solid orangered;
+position: relative;
+height: fit-content;
+width: 200px;
+margin-left:auto ;
+margin-right: auto;
+margin-top: 5px;
+
+
+}
+/* About us page*/
+.aboutustext{
+    h2{
+        text-align: left;
+    }
+    p{
+        text-align: left;
+        clear: right
+
+    }
+}
+.aboutustext2 /*css sucks ass*/{
+    h2{
+        text-align: left;
+
+    }
+    p{
+        text-align: left;
+        clear: right
+
+    }
+
+}
+
+.beanleaf{
+float: right;
+    
+}
+
+.Katename
+{
+    h2{
+        margin-left: 50px;
+        display: inline-block;
+    }
+    img{
+        margin-left:30px;
+        position: relative;
+        height: fit-content;
+        width: 200px;
+        margin-left:auto ;
+        margin-right: auto;
+        margin-top: 5px;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    p{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    color:black;
+    margin-left:30px;
+    display:inline-block;
+    width: 1600px;
+    border: 5px solid orangered;
+    position: relative;
+    height: fit-content;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.andrewname
+{
+    h2{
+        margin-left: 50px;
+        display: inline-block;
+    }
+    img{
+        margin-left:30px;
+        position: relative;
+        height: fit-content;
+        width: 200px;
+        margin-left:90 ;
+        margin-right: auto;
+        margin-top: 5px;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    p{
+        display: inline-block;
+        padding-left: 10px;
+        
+    }
+    color:black;
+    margin-left:30px;
+    display:inline-block;
+    width: 1600px;
+    border: 5px solid orangered;
+    position: relative;
+    height: fit-content;
+    margin-left:100px ;
+    margin-right: auto;
+    margin-top: 5px;
+    display: inline-block;
+}
+.Gavinname
+{
+    h2{
+        margin-left: 50px;
+        display: inline-block;
+    }
+    img{
+        margin-left:30px;
+        position: relative;
+        height: fit-content;
+        width: 200px;
+        margin-left:auto ;
+        margin-right: auto;
+        margin-top: 5px;
+        display: inline-block;
+        padding-left: 90px;
+
+    }
+    p{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    border: 5px solid orangered;
+    position: relative;
+    width: 1600px;
+    height: fit-content;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 5px;
+    color:black;
+    display:inline-block;
+    clear:none;
+}
+
+.training{
+    h2{
+
+        text-align: end;
+        margin-right: 150px;
+        border: 5px solid orangered;
+        position: relative;
+        height: fit-content;
+        width: 300px;
+margin-left:auto ;
+
+margin-top: 5px;
+    }
+    img{
+        display: inline-block;
+        margin-left: auto;
+
+    }
+    p{
+        text-align: right;
+        display: inline-block;
+
+        position: relative;
+        width: 1100px;
+        height: fit-content;
+        margin-left: 750px;
+        margin-right: 100px;
+        margin-top: 5px;
+        clear:none;
+    }
+    a{
+        text-align: right;
+        display: inline-block;
+    }
+
+    .trainingheading{
+        
+        text-align: end;
+        margin-right: 150px;
+        border: 5px solid orangered;
+        position: relative;
+        height: fit-content;
+        width: 100px;
+        margin-left:auto ;
+
+
+    }
+    
+
+}
+.linksalign{
+    H2{
+        border: 5px solid orangered;
+    position: relative;
+    height: fit-content;
+    width: 100px;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 5px;
+    }
+    text-align: center;
+
+}
+/*application bit*/
+.applicationform{
+    h2{
+        border: 5px solid orangered;
+        text-align: center;
+        height: fit-content;
+        margin-top: 5px;
+        position: relative;
+    }
+    h3{
+        border: 5px solid orangered;
+        text-align: left;
+        height: fit-content;
+        margin-top: 5px;
+         width: fit-content;
+        position: relative;
+    
+    }
+    p{
+        text-align: left;
+        display: inline-block;
+    }
+    text-align: center;
+    form{
+        text-align: center;
+        display: inline-block;
+    }
+    input[type=text] {
+        display: inline block;
+    }
+    input[type=number]{
+        display: inline block;
+    }
+    
+
+
+}
+
